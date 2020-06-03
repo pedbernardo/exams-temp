@@ -10668,7 +10668,7 @@ var getDataFromDataSource = function getDataFromDataSource(_ref) {
     inpcodProduto: productId
   };
   url.search = new URLSearchParams(params).toString();
-  return fetch(ORQUESTRA_DATASOURCE_URL).then(function (res) {
+  return fetch(url).then(function (res) {
     return res.json();
   }).then(function (_ref2) {
     var success = _ref2.success;
