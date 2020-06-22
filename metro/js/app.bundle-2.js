@@ -1972,7 +1972,7 @@ function resolveReference(reference, component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var ORQUESTRA_DATASOURCE_URL = "http://localhost:3333/mock/api" + "/equipamentos";
+var ORQUESTRA_DATASOURCE_URL = "https://d-sisweb.fieb.org.br/FIEB/Orquestra/api/json/datasource/get/1.0" + "/0POMGDbP@kblzrbtsTh-i4Lgl7Mzl1gG3hOgTyxkxMJyzC0CNdkglVxv0yCx3WjMLFO-pEmX4PuSAAif0owYUQ__";
 
 var getDataFromDataSource = function getDataFromDataSource(_ref) {
   var unitId = _ref.unitId,
